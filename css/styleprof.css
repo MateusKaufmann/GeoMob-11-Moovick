@@ -1,0 +1,395 @@
+/*Fontes do Google*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+/*Css Outdoor*/
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    font-family: 'Poppins', sans-serif;
+}
+
+header a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+
+header {
+    background-image: linear-gradient(to right, #0026ff, #ff0000);
+    -webkit-linear-gradient(left, #00BFFF, #DA70D6);
+}
+
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-7 {
+    padding 22vmin 1vmin;
+    padding-bottom: 35vmin;
+    font-family: 'Poppins'
+}
+
+header .row .col-md-12 img {
+    padding-top: 5rem;
+    width: 50%;
+}
+
+header .row .col-md-12 .titulo {
+    height: 15em;
+}
+
+header .row .col-md-12 h1 {
+    padding-top: 1em;
+    color: whitesmoke;
+    font-family: 'Poppins';
+}
+
+header .container .col-md-7 h6 {
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1 {
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+
+.header .container .col-md-7 p {
+    padding: 1vmin 5vmin;
+}
+
+.header .container .col-md-7 button {
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+
+/*Css Seção 1*/
+
+.secao-1 {
+    padding: 20vmin 0;
+}
+
+.secao-1 {
+    background-image: linear-gradient(to right, #0026ff, #ff0000);
+}
+
+.fundo {
+    background-image: linear-gradient(to right, #0026ff, #ff0000);
+}
+
+.secao-1 .row .col-md-12 {
+    position: relative;
+}
+
+.secao-1 .row .col-md-12 .panel {
+    background-color: whitesmoke;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    font-family: 'Poppins';
+    z-index: 1;
+}
+
+.secao-1 .row .col-md-6 {
+    position: relative;
+}
+
+.secao-1 .row .col-md-6 .panel {
+    background-color: whitesmoke;
+    border-radius: 3px;
+    text-align: left;
+    padding: 13vmin 5vmin 20vmin 10vmin;
+    font-family: 'Poppins';
+    z-index: 1;
+}
+
+.secao-1 .row .col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 1em;
+}
+
+.secao-1 .row .col-md-6 .panel p {
+    font-size: 0.5em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+/*Section 2*/
+
+.cover {
+    width: 100%;
+    height: 55vmin;
+    background: #57454d;
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+}
+
+.cover .content {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    widght: 100%;
+    padding-top: 19vmin;
+}
+
+.cover .content h1 {
+    font-family: 'Poppins';
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+
+.cover .content p {
+    font-family: 'Poppins';
+    font-size: 2vmin;
+    color: white;
+}
+
+.anos .rect {
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: 1px 2px 50px 0px #dd2476;
+}
+
+.anos .rect:hover {
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: 1px 2px 50px 0px #57454d;
+}
+
+.anos {
+    margin-top: -15vmin;
+}
+
+.anos .rect h1 {
+    font-size: 5rem;
+    color: purple;
+}
+
+.anos .rect h3 {
+    font-size: 1.5rem;
+    color: purple;
+}
+
+.anos .rect p {
+    font-family: 'Poppins';
+}
+
+.dados h5 {
+    font-weight: bold;
+    padding-top: 2rem;
+    padding-bottom: 0.1em;
+    font-family: 'Poppins';
+    color: whitesmoke;
+}
+
+.dados p {
+    color: black;
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+    padding: 1.4rem 2.5rem;
+}
+
+.dados .cards .card {
+    width: 22rem;
+    margin: 3vmin;
+}
+
+.cards div {
+    padding: 0;
+    margin: 0;
+
+}
+
+.cards .title {
+    background: linear-gradient(to right, #dd2476, purple);
+    padding: 1.4rem 2.5rem;
+    font-size: 2vmin;
+}
+
+.card .card-text {
+    padding: 2.5rem 3em;
+    color: black;
+}
+
+/*Seção 3*/
+
+.secao-3 {
+    height: 40vmin;
+    padding: 1em 0.5em;
+    background-image: linear-gradient(to right, #0026ff, #ff0000);
+}
+
+.secao-3 .col-md-12 h1 {
+    padding: 2em 0 0.5em 0;
+    color: whitesmoke;
+    font-size: 5vmin;
+}
+
+.secao-3 .col-md-12 p {
+    padding: 0 4em;
+    padding-bottom: 2em;
+    color: whitesmoke;
+    font-size: 3vmin;
+}
+
+.secao-3 .desktop {
+    background: white;
+    display: inline-block;
+    border-radius: 3em;
+    padding: 2vmin 4.5vmin;
+    margin: 1em;
+}
+
+.secao-3 .desktop h3 {
+    font-size: 4vmin;
+}
+
+.secao-3 .desktop p {
+    font-size: 2vmin;
+}
+
+/*Seção 4*/
+
+.secao-4 {
+    background: linear-gradient(to right, #8d40e4, rgb(236, 134, 236));
+}
+
+.secao-4 .container h1 {
+    font-size: 8vmin;
+    padding-top: 14vmin;
+    color: whitesmoke;
+    font-family: "Poppins";
+}
+
+.secao-4 .alunos {
+    padding: 10vmin 4vmin;
+}
+
+.secao-4 .card {
+    width: 22rem;
+    margin-top: 10vmin;
+}
+
+.secao-4 .card .card-text {
+    padding: 0.5em;
+}
+
+.secao-4 .card .card-texto a {
+    font-size: 1.5em;
+}
+
+.secao-4 .carousel-item {
+    padding-left: 3rem;
+}
+
+.border-radius {
+    border-radius: 340px;
+}
+
+/*Rodapé*/
+
+.secao-5 {
+    height: 26vmin;
+    padding: 1em 0.5em;
+    background: linear-gradient(to right, #0026ff, #ff0000);
+}
+
+.secao-5 .col-md-12 h4 {
+    padding: 2em 0 0.5em 0;
+    color: whitesmoke;
+    font-size: 4vmin;
+}
+
+.secao-5 .col-md-12 p {
+    padding: 0 4em;
+    padding-bottom: 2em;
+    color: whitesmoke;
+    font-size: 2vmin;
+}
+
+/*Animação automática Slide*/
+
+.autoAnimacaoSlide {
+    opacity: 0;
+    transform: translate3d(-100px, 0, 0);
+    transition: .3s;
+}
+
+.autoAnimacaoSlide-start {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+.h1-padrao {
+    color: whitesmoke;
+    font-family: "Poppins";
+}
+
+.p-padrao-black {
+    color: rgb(0, 0, 0);
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+input {
+    border-radius: 5px;
+    border-color: #000000;
+}
+
+.button-login {
+    border-radius: 5px;
+    font-family: 'Poppins';
+    background-color: #dd2476;
+    border-color: #dd2476;
+}
+
+.card:hover {
+    box-shadow: 1px 2px 50px 0px #dd2476;
+}
+
+.card:active {
+    box-shadow: 1px 2px 50px 0px #a6ff00;
+    opacity: 0;
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+}
+
+.rect:hover {
+    box-shadow: 1px 2px 50px 0px #dd2476;
+}
+
+.rect:active {
+    box-shadow: 1px 2px 50px 0px #a6ff00;
+    opacity: 0;
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+}
+
+.titulo {
+    padding-top: 5rem;
+}
